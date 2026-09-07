@@ -1,0 +1,317 @@
+{
+  "familyName": "Hawthorne & Kin",
+  "archiveTitle": "Hawthorne Family Digital Heritage Archive",
+  "description": "Preserved vintage photos, genealogy lineage, oral history recollections, heirloom recipes, and announcements.",
+  "version": "2.0",
+  "exportedAt": "2026-08-26T22:55:00.000Z",
+  "familyMembers": [
+    {
+      "id": "mem-1",
+      "firstName": "Arthur",
+      "lastName": "Hawthorne",
+      "nickname": "Grandpa Artie",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1921-04-12",
+      "deathDate": "2008-11-19",
+      "isLiving": false,
+      "birthPlace": "Boston, Massachusetts",
+      "generation": 1,
+      "spouseId": "mem-2",
+      "bio": "Arthur was a carpenter and Navy veteran of WWII (USS Intrepid). Known for his dry wit, handmade rocking chairs, and deep love for storytelling around the fireplace.",
+      "profession": "Master Carpenter & Shipwright",
+      "militaryService": "US Navy Petty Officer 2nd Class (1942–1945)",
+      "funFact": "Could whistle four-part harmony tunes and never lost a game of cribbage.",
+      "favoriteMemory": "Building the family cabin on Lake Winnipesaukee with his sons in 1968.",
+      "historicalDocuments": [
+        {
+          "id": "doc-1",
+          "title": "US Navy Honorable Discharge Paper",
+          "type": "military",
+          "date": "1945-12-04",
+          "description": "Discharge document from US Naval Station Boston with commendation for service in the Pacific Theatre.",
+          "source": "National Archives & Family Heirloom Chest"
+        },
+        {
+          "id": "doc-2",
+          "title": "1930 US Federal Census Record",
+          "type": "census",
+          "date": "1930-04-15",
+          "description": "Listing Arthur at age 9 living with parents Joseph and Clara on Dorchester Ave, Boston."
+        }
+      ]
+    },
+    {
+      "id": "mem-2",
+      "firstName": "Eleanor",
+      "lastName": "Hawthorne",
+      "maidenName": "O'Connor",
+      "nickname": "Nana Ellie",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1924-09-08",
+      "deathDate": "2015-03-22",
+      "isLiving": false,
+      "birthPlace": "Galway, Ireland",
+      "generation": 1,
+      "spouseId": "mem-1",
+      "bio": "Eleanor immigrated through Ellis Island in 1934. She became a beloved primary school teacher, master baker, and community choir singer. She kept every letter ever written to her.",
+      "profession": "Elementary School Teacher & Musician",
+      "funFact": "Her secret cardamom apple spice cake recipe won 1st prize at the 1962 County Fair.",
+      "favoriteMemory": "The Sunday dinners when all the children and cousins packed into her kitchen in Roslindale.",
+      "historicalDocuments": [
+        {
+          "id": "doc-3",
+          "title": "SS Laconia Passenger Manifest",
+          "type": "immigration",
+          "date": "1934-06-18",
+          "description": "Ship manifest showing 10-year-old Eleanor travelling with her mother Bridget from Cobh to Boston."
+        },
+        {
+          "id": "doc-4",
+          "title": "Certificate of Marriage - St. Joseph's Parish",
+          "type": "marriage",
+          "date": "1946-06-22",
+          "description": "Marriage registry to Arthur Hawthorne, witnessed by Thomas Vance and Mary O'Connor."
+        }
+      ]
+    },
+    {
+      "id": "mem-3",
+      "firstName": "Thomas",
+      "lastName": "Hawthorne",
+      "nickname": "Tommy",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1948-02-14",
+      "isLiving": true,
+      "birthPlace": "Boston, Massachusetts",
+      "currentLocation": "Portsmouth, New Hampshire",
+      "generation": 2,
+      "fatherId": "mem-1",
+      "motherId": "mem-2",
+      "spouseId": "mem-4",
+      "bio": "Thomas inherited his father's craftsmanship and ran Hawthorne Architectural Woodworking for 35 years. Passionate about sailing, vintage cars, and family genealogies.",
+      "profession": "Architectural Woodworker (Retired)",
+      "funFact": "Restored a 1967 Austin-Healey Sprite convertible by hand in his garage.",
+      "favoriteMemory": "Teaching his daughter Clara how to steer a sailboat in Casco Bay."
+    },
+    {
+      "id": "mem-4",
+      "firstName": "Marianne",
+      "lastName": "Hawthorne",
+      "maidenName": "Dupont",
+      "nickname": "Mary",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1950-07-29",
+      "isLiving": true,
+      "birthPlace": "Montreal, Canada",
+      "currentLocation": "Portsmouth, New Hampshire",
+      "generation": 2,
+      "spouseId": "mem-3",
+      "bio": "Botanist and high school biology educator. Marianne cultivates an award-winning heirloom rose garden and coordinates the annual coastal family picnic.",
+      "profession": "Botanist & High School Biology Teacher (Retired)",
+      "funFact": "Can identify over 200 species of coastal birds by their mating calls alone.",
+      "favoriteMemory": "The 1982 summer camping expedition in Acadia National Park with the kids."
+    },
+    {
+      "id": "mem-5",
+      "firstName": "Clara",
+      "lastName": "Hawthorne",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1980-10-14",
+      "isLiving": true,
+      "birthPlace": "Portsmouth, New Hampshire",
+      "currentLocation": "Cambridge, Massachusetts",
+      "generation": 3,
+      "fatherId": "mem-3",
+      "motherId": "mem-4",
+      "spouseId": "mem-6",
+      "bio": "Historian, archivist, and creator of the Hawthorne Digital Heritage Archive. Clara digitizes family negatives, letters, and recipes to keep memories vibrant across generations.",
+      "profession": "Museum Curator & Digital Archivist",
+      "funFact": "Collects antique fountain pens and handwritten postcard correspondences.",
+      "favoriteMemory": "Listening to Grandpa Artie recount his sea voyages by the crackling hearth."
+    },
+    {
+      "id": "mem-6",
+      "firstName": "Julian",
+      "lastName": "Sterling",
+      "nickname": "Jules",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1978-04-03",
+      "isLiving": true,
+      "birthPlace": "Seattle, Washington",
+      "currentLocation": "Cambridge, Massachusetts",
+      "generation": 3,
+      "spouseId": "mem-5",
+      "bio": "Architectural photographer and avid cyclist. Documentarian of family reunions and holidays.",
+      "profession": "Documentary Photographer",
+      "funFact": "Has photographed buildings in 34 countries.",
+      "favoriteMemory": "The torchlight bonfire on the shores of Winnipesaukee during the 2018 reunion."
+    },
+    {
+      "id": "mem-7",
+      "firstName": "Maya",
+      "lastName": "Sterling",
+      "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "2012-06-18",
+      "isLiving": true,
+      "birthPlace": "Boston, Massachusetts",
+      "currentLocation": "Cambridge, Massachusetts",
+      "generation": 4,
+      "fatherId": "mem-6",
+      "motherId": "mem-5",
+      "bio": "4th generation kin. Plays classical cello, loves baking Nana Ellie's spiced cakes, and loves asking questions about ancestors.",
+      "profession": "Middle School Student & Cellist",
+      "funFact": "Won 1st place in the regional science fair for studying heirloom apple tree pollination.",
+      "favoriteMemory": "Rowing the wooden boat across the lake at sunrise with Grandpa Tommy."
+    }
+  ],
+  "photos": [
+    {
+      "id": "photo-1",
+      "title": "Arthur & Eleanor on Wedding Day at St. Joseph's",
+      "imageUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+      "year": 1946,
+      "exactDate": "1946-06-22",
+      "decade": "1940s",
+      "location": "Roslindale, Boston, MA",
+      "eventType": "Wedding",
+      "taggedMemberIds": ["mem-1", "mem-2"],
+      "description": "Arthur just returned from the Pacific theatre in the US Navy. Eleanor wore a handmade silk organza gown sewn by her mother Bridget. The reception was hosted in the parish hall with accordion music.",
+      "contributedBy": "Clara Hawthorne (from Nana Ellie's velvet album)",
+      "colorTone": "sepia",
+      "comments": [
+        {
+          "id": "c-1",
+          "author": "Thomas Hawthorne",
+          "text": "Dad always said this was the happiest day of his entire life after three long years overseas.",
+          "date": "2026-02-14"
+        }
+      ],
+      "likes": 42
+    },
+    {
+      "id": "photo-2",
+      "title": "Summer Cabin Construction at Lake Winnipesaukee",
+      "imageUrl": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=80",
+      "year": 1968,
+      "exactDate": "1968-07-15",
+      "decade": "1960s",
+      "location": "Moultonborough, NH",
+      "eventType": "Everyday Life",
+      "taggedMemberIds": ["mem-1", "mem-3"],
+      "description": "Arthur and 20-year-old Tommy framing the roof rafters of the lake house. Arthur notched every hemlock beam by hand using his grandfather's broadaxe.",
+      "contributedBy": "Thomas Hawthorne",
+      "colorTone": "vintage-color",
+      "comments": [
+        {
+          "id": "c-2",
+          "author": "Marianne Hawthorne",
+          "text": "That roof still stands strong through every New England winter blizzard!",
+          "date": "2026-02-18"
+        }
+      ],
+      "likes": 38
+    },
+    {
+      "id": "photo-3",
+      "title": "Four Generations Lakefront Gathering",
+      "imageUrl": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1200&q=80",
+      "year": 2024,
+      "exactDate": "2024-07-20",
+      "decade": "2020s",
+      "location": "Lake Winnipesaukee, NH",
+      "eventType": "Reunion",
+      "taggedMemberIds": ["mem-3", "mem-4", "mem-5", "mem-6", "mem-7"],
+      "description": "The entire family reunited on the porch for the centennial commemoration of Eleanor's birth. Maya played Eleanor's favorite Irish air on the cello as the sun dipped behind the pines.",
+      "contributedBy": "Julian Sterling",
+      "colorTone": "full-color",
+      "comments": [
+        {
+          "id": "c-3",
+          "author": "Clara Hawthorne",
+          "text": "Such a treasured memory. We took over 400 photos that weekend!",
+          "date": "2026-03-01"
+        }
+      ],
+      "likes": 56
+    }
+  ],
+  "memories": [
+    {
+      "id": "story-1",
+      "title": "Nana Ellie's Secret Cardamom Spiced Apple Cake",
+      "category": "Secret Recipe",
+      "author": "Eleanor Hawthorne (Transcribed by Clara)",
+      "authorMemberId": "mem-2",
+      "yearEstimated": 1952,
+      "decade": "1950s",
+      "content": "This recipe was taught to Eleanor by her Irish grandmother, with a dash of cardamom introduced after moving to Boston. The secret is grating half the apples fine for moisture and chunking the other half for texture.",
+      "recipeIngredients": [
+        "3 cups all-purpose unbleached flour",
+        "1 1/2 tsp ground cinnamon",
+        "1 tsp freshly ground cardamom seeds",
+        "1 tsp baking soda & 1/2 tsp salt",
+        "1 1/2 cups light brown sugar",
+        "3 large farm eggs at room temperature",
+        "1 cup organic unsalted sweet cream butter (melted & cooled)",
+        "4 crisp Cortland or Honeycrisp apples (2 finely grated, 2 peeled & cubed)",
+        "1 cup chopped toasted walnuts",
+        "2 tsp pure Madagascar vanilla extract"
+      ],
+      "recipeSteps": [
+        "Preheat the woodstove oven (or modern oven) to 350°F (175°C). Butter and flour a 10-inch Bundt pan thoroughly.",
+        "In a large stoneware bowl, whisk together the flour, cinnamon, cardamom, baking soda, and salt until fragrant.",
+        "In another bowl, beat brown sugar and melted butter, then whisk in eggs one at a time until glossy.",
+        "Fold the wet ingredients into the dry mixture until just combined (do not overwork the batter).",
+        "Gently fold in the grated apples, diced apples, walnuts, and vanilla extract.",
+        "Pour into prepared pan and bake for 55 to 65 minutes until a wooden skewer comes out clean.",
+        "Cool for 20 minutes before turning out onto an heirloom ceramic plate. Dust with confectioners' sugar."
+      ],
+      "likes": 47,
+      "dateAdded": "2026-01-10"
+    }
+  ],
+  "news": [
+    {
+      "id": "news-1",
+      "title": "Hawthorne Family Centennial Summer Reunion 2026",
+      "category": "Reunion Update",
+      "date": "2026-07-18",
+      "author": "Clara Hawthorne & Julian Sterling",
+      "content": "The Lake Winnipesaukee cabin reservations and lakeside campsites are officially confirmed for July 17–21, 2026! We will host the Saturday heirloom fish fry, heritage slide projection, and Maya's cello concert on the dock.",
+      "eventDate": "July 17–21, 2026",
+      "location": "Moultonborough Cabin, Lake Winnipesaukee, NH",
+      "pinned": true,
+      "rsvpCount": 28
+    }
+  ],
+  "calendarEvents": [
+    {
+      "id": "cal-1",
+      "title": "Arthur 'Grandpa Artie' Birthday (Memorial)",
+      "type": "memorial",
+      "dateMonthDay": "04-12",
+      "originalYear": 1921,
+      "memberId": "mem-1",
+      "description": "Remembering Grandpa Artie on his 105th milestone year. Listen to old big band records and play a game of cribbage."
+    },
+    {
+      "id": "cal-2",
+      "title": "Thomas & Marianne 52nd Wedding Anniversary",
+      "type": "anniversary",
+      "dateMonthDay": "08-15",
+      "originalYear": 1974,
+      "memberId": "mem-3",
+      "memberSecondaryId": "mem-4",
+      "description": "Celebrating 52 wonderful years together since their coastal Maine chapel ceremony."
+    },
+    {
+      "id": "cal-3",
+      "title": "Maya Sterling 14th Birthday",
+      "type": "birthday",
+      "dateMonthDay": "06-18",
+      "originalYear": 2012,
+      "memberId": "mem-7",
+      "description": "Baking Nana Ellie's spiced apple cake and celebrating Maya's cello recital!"
+    }
+  ]
+}

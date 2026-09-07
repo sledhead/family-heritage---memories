@@ -1,0 +1,121 @@
+{
+  "familyName": "Your Family Name",
+  "archiveTitle": "Our Family Heritage & Vintage Photo Archive",
+  "description": "Quick setup template for family lineage, photographs, recipes, and milestones.",
+  "version": "2.0",
+  "exportedAt": "2026-08-26T22:55:00.000Z",
+  "familyMembers": [
+    {
+      "id": "mem-1",
+      "firstName": "Firstname",
+      "lastName": "Lastname",
+      "nickname": "Grandpa",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1935-04-10",
+      "deathDate": "2015-11-20",
+      "isLiving": false,
+      "birthPlace": "City, State",
+      "generation": 1,
+      "spouseId": "mem-2",
+      "bio": "Founding patriarch of the family.",
+      "profession": "Carpenter / Teacher",
+      "funFact": "Known for his wonderful storytelling."
+    },
+    {
+      "id": "mem-2",
+      "firstName": "Firstname",
+      "lastName": "Lastname",
+      "maidenName": "MaidenName",
+      "nickname": "Nana",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1938-09-12",
+      "isLiving": true,
+      "birthPlace": "City, State",
+      "generation": 1,
+      "spouseId": "mem-1",
+      "bio": "Founding matriarch of the family and keeper of all traditions.",
+      "profession": "Educator"
+    },
+    {
+      "id": "mem-3",
+      "firstName": "ChildName",
+      "lastName": "Lastname",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
+      "birthDate": "1965-06-20",
+      "isLiving": true,
+      "birthPlace": "City, State",
+      "generation": 2,
+      "fatherId": "mem-1",
+      "motherId": "mem-2",
+      "bio": "Second generation family member.",
+      "profession": "Engineer"
+    }
+  ],
+  "photos": [
+    {
+      "id": "photo-1",
+      "title": "Family Wedding Ceremony",
+      "imageUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+      "year": 1958,
+      "exactDate": "1958-06-14",
+      "decade": "1950s",
+      "location": "Our Hometown",
+      "eventType": "Wedding",
+      "taggedMemberIds": ["mem-1", "mem-2"],
+      "description": "Cherished photo on the wedding day.",
+      "contributedBy": "Family Archivist",
+      "colorTone": "sepia",
+      "comments": [],
+      "likes": 5
+    }
+  ],
+  "memories": [
+    {
+      "id": "story-1",
+      "title": "Grandma's Secret Homemade Bread",
+      "category": "Secret Recipe",
+      "author": "Grandma",
+      "yearEstimated": 1965,
+      "decade": "1960s",
+      "content": "Freshly baked every Sunday morning.",
+      "recipeIngredients": [
+        "4 cups warm water",
+        "2 tbsp active dry yeast",
+        "1 tbsp sea salt",
+        "6 cups unbleached bread flour"
+      ],
+      "recipeSteps": [
+        "Dissolve yeast in warm water and let foam for 10 minutes.",
+        "Add salt and stir in flour gradually until dough forms.",
+        "Knead for 10 minutes and let rise in warm spot for 1 hour.",
+        "Bake in Dutch oven at 425°F for 35 minutes until golden crust forms."
+      ],
+      "likes": 10,
+      "dateAdded": "2026-01-01"
+    }
+  ],
+  "news": [
+    {
+      "id": "news-1",
+      "title": "Upcoming Family Reunion",
+      "category": "Reunion Update",
+      "date": "2026-07-01",
+      "author": "Family Coordinator",
+      "content": "Join us for a wonderful weekend celebrating our family heritage.",
+      "eventDate": "August 15, 2026",
+      "location": "Family Homestead",
+      "pinned": true,
+      "rsvpCount": 10
+    }
+  ],
+  "calendarEvents": [
+    {
+      "id": "cal-1",
+      "title": "Family Reunion Date",
+      "type": "reunion",
+      "dateMonthDay": "08-15",
+      "originalYear": 2026,
+      "description": "Annual gathering of all relatives and friends."
+    }
+  ]
+}
