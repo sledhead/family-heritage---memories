@@ -1,0 +1,6 @@
+{
+  "name": "Family Heritage & Memories",
+  "description": "An accessible family website for sharing vintage photos with an interactive timeline, genealogy records, family tree, news updates, and birthday calendar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

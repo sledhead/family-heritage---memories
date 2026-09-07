@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', 'Cormorant Garamond', 'Lora', Georgia, serif;
+    --font-display: 'Cinzel', 'Playfair Display', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FDFBF7;
+    color: #2D2926;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom subtle scrollbar in artistic warm tones */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 115, 85, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 115, 85, 0.5);
+}
+
+/* Artistic Flair Photo Frame & Corners */
+.artistic-frame {
+  position: relative;
+  background-color: #FDFBF7;
+  border: 1px solid rgba(45, 41, 38, 0.1);
+  box-shadow: 0 10px 30px -10px rgba(45, 41, 38, 0.08);
+  transition: all 0.25s ease;
+}
+
+.artistic-frame:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 35px -10px rgba(140, 115, 85, 0.15);
+  border-color: rgba(140, 115, 85, 0.3);
+}
+
+/* Fine Editorial Borders */
+.border-editorial {
+  border-color: rgba(45, 41, 38, 0.1);
+}
+
+.border-bronze {
+  border-color: #8C7355;
+}
+
+/* Accessible text size scale levels */
+.text-size-sm { font-size: 0.9rem; }
+.text-size-base { font-size: 1rem; }
+.text-size-lg { font-size: 1.15rem; }
+.text-size-xl { font-size: 1.3rem; }
+
